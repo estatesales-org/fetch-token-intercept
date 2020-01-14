@@ -28,7 +28,7 @@ export function attach(env) {
   env.fetch = fetchWrapper(env.fetch);
 }
 
-function init() {
+export function init() {
   if (isReactNative()) {
     attach(global);
   } else if (isWorker()) {
@@ -61,5 +61,3 @@ export function clear() {
 export {
   isResponseUnauthorized,
 };
-
-init();

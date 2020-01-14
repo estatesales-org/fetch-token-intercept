@@ -1,6 +1,6 @@
 {
-  "name": "@shoutem/fetch-token-intercept",
-  "version": "0.2.2",
+  "name": "fetch-token-intercept",
+  "version": "0.2.21",
   "description": "Fetch interceptor for managing refresh token flow.",
   "main": "lib/index.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shoutem/fetch-token-intercept/"
+    "url": "https://github.com/estatesales-org/fetch-token-intercept/"
   },
   "keywords": [
     "fetch",
@@ -26,7 +26,7 @@
   "author": "Shoutem",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/shoutem/fetch-token-intercept/issues"
+    "url": "https://github.com/estatesales-org/fetch-token-intercept/issues"
   },
   "homepage": "",
   "devDependencies": {
