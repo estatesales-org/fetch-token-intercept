@@ -15,7 +15,8 @@ export function attach(env) {
   }
 
   if (interceptor) {
-    throw Error('You should attach only once.');
+    // throw Error('You should attach only once.');
+    return;
   }
 
   // for now add default interceptor
