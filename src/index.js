@@ -7,7 +7,7 @@ import {
 import { isResponseUnauthorized } from './services/http';
 import FetchInterceptor from './FetchInterceptor';
 
-let interceptor = null;
+export let interceptor = null;
 
 export function attach(env) {
   if (!env.fetch) {
