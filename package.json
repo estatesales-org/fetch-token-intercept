@@ -10,7 +10,8 @@
     "lint": "eslint src test",
     "test": "mocha --require babelTestSetup --reporter spec --recursive test",
     "coverage": "babel-node node_modules/isparta/bin/isparta cover --report text --report html node_modules/mocha/bin/_mocha -- -R spec --recursive test",
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-dir lib",
+    "clean": "rm -rf lib node_modules"
   },
   "repository": {
     "type": "git",
